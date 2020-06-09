@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+  mydatabase:
+    image: couchbase:enterprise-6.5.0
+    ports:
+      - 8091-8094:8091-8094
