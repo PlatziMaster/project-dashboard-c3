@@ -1,0 +1,17 @@
+[couchdb:info,2020-06-16T21:32:36.699Z,couchdb_ns_1@cb.local:cb_couch_sup<0.139.0>:couch_log:info:41]Apache CouchDB has started on http://0.0.0.0:8092/
+[couchdb:info,2020-06-16T21:33:36.406Z,couchdb_ns_1@cb.local:couch_query_logger<0.188.0>:couch_log:info:41]Query-Volume
+---
+[couchdb:info,2020-06-16T21:33:48.741Z,couchdb_ns_1@cb.local:<0.475.0>:couch_log:info:41]Deleting couch file "/opt/couchbase/var/lib/couchbase/data/platzi/master.couch.1.compact" with renaming it to "/opt/couchbase/var/lib/couchbase/data/.delete/4180384f70e23c940bd2ccff4769fb0b"
+[couchdb:info,2020-06-16T21:33:48.748Z,couchdb_ns_1@cb.local:<0.475.0>:couch_log:info:41]Deleting couch file "/opt/couchbase/var/lib/couchbase/data/platzi/master.couch.1.compact" with renaming it to "/opt/couchbase/var/lib/couchbase/data/.delete/50f0b805be6aa648a839f5cf3c043ce0"
+[couchdb:info,2020-06-16T21:33:48.878Z,couchdb_ns_1@cb.local:couch_view<0.235.0>:couch_log:info:41]Deleting couch file "/opt/couchbase/var/lib/couchbase/data/.platzi/master_temp" with renaming it to "/opt/couchbase/var/lib/couchbase/data/.delete/28f820921e66bb408a402a414eda1828"
+[couchdb:info,2020-06-16T21:33:48.883Z,couchdb_ns_1@cb.local:couch_view<0.235.0>:couch_log:info:41]Deleting couch file "/opt/couchbase/var/lib/couchbase/data/.platzi/master_temp" with renaming it to "/opt/couchbase/var/lib/couchbase/data/.delete/68e27a192357d1abec31253f700ac75e"
+[couchdb:info,2020-06-16T21:34:36.407Z,couchdb_ns_1@cb.local:couch_query_logger<0.188.0>:couch_log:info:41]Query-Volume
+---
+[couchdb:info,2020-06-16T21:35:36.408Z,couchdb_ns_1@cb.local:couch_query_logger<0.188.0>:couch_log:info:41]Query-Volume
+---
+[couchdb:info,2020-06-16T21:36:36.411Z,couchdb_ns_1@cb.local:couch_query_logger<0.188.0>:couch_log:info:41]Query-Volume
+---
+[couchdb:info,2020-06-16T21:37:36.413Z,couchdb_ns_1@cb.local:couch_query_logger<0.188.0>:couch_log:info:41]Query-Volume
+---
+[couchdb:info,2020-06-16T21:38:36.414Z,couchdb_ns_1@cb.local:couch_query_logger<0.188.0>:couch_log:info:41]Query-Volume
+---

@@ -1,0 +1,134 @@
+2020/06/16 21:33:36 cbauth: key: fts/remoteClients registered for tls config updates
+2020-06-16T21:33:36.872+00:00 [INFO] main: /opt/couchbase/bin/cbft started (v0.6.0/5.5.0)
+2020-06-16T21:33:36.872+00:00 [INFO] main: file descriptor limit current: 1048576 max: 1048576
+2020-06-16T21:33:36.872+00:00 [INFO]   -authType="cbauth"
+2020-06-16T21:33:36.872+00:00 [INFO]   -bindGrpc="127.0.0.1:9130,0.0.0.0:9130"
+2020-06-16T21:33:36.872+00:00 [INFO]   -bindGrpcSsl="127.0.0.1:19130,0.0.0.0:19130"
+2020-06-16T21:33:36.872+00:00 [INFO]   -bindHttp="127.0.0.1:8094,0.0.0.0:8094"
+2020-06-16T21:33:36.872+00:00 [INFO]   -bindHttps=":18094"
+2020-06-16T21:33:36.872+00:00 [INFO]   -cfgConnect="metakv"
+2020-06-16T21:33:36.872+00:00 [INFO]   -container=""
+2020-06-16T21:33:36.872+00:00 [INFO]   -dataDir="/opt/couchbase/var/lib/couchbase/data/@fts"
+2020-06-16T21:33:36.872+00:00 [INFO]   -extras="127.0.0.1:8091"
+2020-06-16T21:33:36.872+00:00 [INFO]   -help="false"
+2020-06-16T21:33:36.872+00:00 [INFO]   -options="startCheckServer=skip,slowQueryLogTimeout=5s,defaultMaxPartitionsPerPIndex=171,bleveMaxResultWindow=10000,failoverAssignAllPrimaries=false,hideUI=true,cbaudit=true,ipv6=false,ftsMemoryQuota=262144000,maxReplicasAllowed=3,bucketTypesAllowed=membase:ephemeral,http2=true,vbuckets=1024"
+2020-06-16T21:33:36.872+00:00 [INFO]   -register="wanted"
+2020-06-16T21:33:36.872+00:00 [INFO]   -server="http://127.0.0.1:8091"
+2020-06-16T21:33:36.872+00:00 [INFO]   -staticDir="static"
+2020-06-16T21:33:36.872+00:00 [INFO]   -staticETag=""
+2020-06-16T21:33:36.872+00:00 [INFO]   -tags="feed,janitor,pindex,queryer,cbauth_service"
+2020-06-16T21:33:36.872+00:00 [INFO]   -tlsCertFile="/opt/couchbase/var/lib/couchbase/config/memcached-cert.pem"
+2020-06-16T21:33:36.872+00:00 [INFO]   -tlsKeyFile="/opt/couchbase/var/lib/couchbase/config/memcached-key.pem"
+2020-06-16T21:33:36.872+00:00 [INFO]   -uuid="a771316973056c9759aee152c7c79f8b"
+2020-06-16T21:33:36.872+00:00 [INFO]   -version="false"
+2020-06-16T21:33:36.872+00:00 [INFO]   -weight="1"
+2020-06-16T21:33:36.872+00:00 [INFO]   GOMAXPROCS=2
+2020-06-16T21:33:36.872+00:00 [INFO] main: registered bleve stores
+2020-06-16T21:33:36.872+00:00 [INFO]   gtreap
+2020-06-16T21:33:36.872+00:00 [INFO]   boltdb
+2020-06-16T21:33:36.872+00:00 [INFO]   metrics
+2020-06-16T21:33:36.872+00:00 [INFO]   goleveldb
+2020-06-16T21:33:36.872+00:00 [INFO]   moss
+2020-06-16T21:33:36.902+00:00 [INFO] main: curr dir: "/opt/couchbase/var/lib/couchbase"
+2020-06-16T21:33:36.902+00:00 [INFO] main: data dir: "/opt/couchbase/var/lib/couchbase/data/@fts"
+2020-06-16T21:33:37.026+00:00 [INFO] app_herder: memQuota: 262144000, appQuota: 262144000, indexQuota: 196608000, queryQuota: 235929600
+2020-06-16T21:33:37.026+00:00 [INFO] cbauth: received  security change notification, code: 3
+2020-06-16T21:33:37.070+00:00 [INFO] cbauth: notifying configs change for key: fts/remoteClients
+2020-06-16T21:33:37.115+00:00 [INFO] manager: setting the nodeDefs implVersion to 5.5.0
+2020-06-16T21:33:37.115+00:00 [INFO] cfg_metakv: Set, key: nodeDefs-known, cas: 1, split: true, nodeUUID: a771316973056c9759aee152c7c79f8b
+2020-06-16T21:33:37.118+00:00 [INFO] cfg_metakv: Set split, key: nodeDefs-known, added: map[a771316973056c9759aee152c7c79f8b:true], removed: map[], updated: map[]
+2020-06-16T21:33:37.118+00:00 [INFO] cfg_metakv: Set split, key: nodeDefs-known, childPath: /fts/cbgt/cfg/nodeDefs-known/a771316973056c9759aee152c7c79f8b
+2020-06-16T21:33:37.179+00:00 [INFO] cfg_metakv: metaKVCallback, path: /fts/cbgt/cfg/nodeDefs-known/a771316973056c9759aee152c7c79f8b, key: nodeDefs-known/a771316973056c9759aee152c7c79f8b, deletion: false
+2020-06-16T21:33:37.215+00:00 [INFO] manager: setting the nodeDefs implVersion to 5.5.0
+2020-06-16T21:33:37.215+00:00 [INFO] cfg_metakv: Set, key: nodeDefs-wanted, cas: 3, split: true, nodeUUID: a771316973056c9759aee152c7c79f8b
+2020-06-16T21:33:37.215+00:00 [INFO] cfg_metakv: Set split, key: nodeDefs-wanted, added: map[a771316973056c9759aee152c7c79f8b:true], removed: map[], updated: map[]
+2020-06-16T21:33:37.215+00:00 [INFO] cfg_metakv: Set split, key: nodeDefs-wanted, childPath: /fts/cbgt/cfg/nodeDefs-wanted/a771316973056c9759aee152c7c79f8b
+2020-06-16T21:33:37.225+00:00 [INFO] manager: loading dataDir...
+2020-06-16T21:33:37.232+00:00 [INFO] manager: loading dataDir... done
+2020-06-16T21:33:37.232+00:00 [INFO] main: custom jsoniter json implementation enabled
+2020-06-16T21:33:37.233+00:00 [INFO] janitor: awakes, op: kick, msg: start
+2020-06-16T21:33:37.240+00:00 [INFO] cfg_metakv: metaKVCallback, path: /fts/cbgt/cfg/nodeDefs-wanted/a771316973056c9759aee152c7c79f8b, key: nodeDefs-wanted/a771316973056c9759aee152c7c79f8b, deletion: false
+2020-06-16T21:33:37.265+00:00 [WARN] janitor: JanitorOnce, err: janitor: skipped on nil planPIndexes -- cbgt.(*Manager).JanitorLoop() at manager_janitor.go:97
+2020-06-16T21:33:37.266+00:00 [INFO] janitor: awakes, op: kick, msg: cfg changed, key: nodeDefs-wanted
+2020-06-16T21:33:37.294+00:00 [WARN] janitor: JanitorOnce, err: janitor: skipped on nil planPIndexes -- cbgt.(*Manager).JanitorLoop() at manager_janitor.go:97
+2020-06-16T21:33:37.300+00:00 [INFO] Using plain authentication for user <ud>@fts</ud> 
+2020-06-16T21:33:37.302+00:00 [INFO] Using plain authentication for user <ud>@fts</ud> 
+2020-06-16T21:33:37.304+00:00 [INFO] Using plain authentication for user <ud>@fts</ud> 
+2020-06-16T21:33:37.306+00:00 [INFO] Using plain authentication for user <ud>@fts</ud> 
+2020-06-16T21:33:37.307+00:00 [INFO] Using plain authentication for user <ud>@fts</ud> 
+2020-06-16T21:33:37.308+00:00 [INFO] audit: created new audit service
+2020-06-16T21:33:37.308+00:00 [INFO] cbauth: key: fts/grpc-ssl registered for tls config updates
+2020-06-16T21:33:37.308+00:00 [INFO] init_grpc: GrpcServer Started at 0.0.0.0:9130
+2020-06-16T21:33:37.388+00:00 [INFO] init_grpc: GrpcServer Started at 0.0.0.0:19130
+2020-06-16T21:33:37.398+00:00 [INFO] main: ctl starting, dryRun: false, waitForMemberNodes: 30, verbose: 3, maxConcurrentPartitionMovesPerNode: 1
+2020-06-16T21:33:37.453+00:00 [INFO] ctl: kickIndexDefs, kind: init
+2020-06-16T21:33:37.501+00:00 [INFO] cfg_metakv: metaKVCallback, path: /fts/cbgt/cfg/nodeDefs-wanted/a771316973056c9759aee152c7c79f8b, key: nodeDefs-wanted/a771316973056c9759aee152c7c79f8b, deletion: false
+2020-06-16T21:33:37.501+00:00 [INFO] planner: nodesRemove: []string(nil)
+2020-06-16T21:33:37.501+00:00 [INFO] planner: step planner
+2020-06-16T21:33:37.528+00:00 [INFO] cfg_metakv: Set, key: version, cas: 1, split: false, nodeUUID: a771316973056c9759aee152c7c79f8b
+2020-06-16T21:33:37.528+00:00 [INFO] cfg_metakv: Set path: /fts/cbgt/cfg/version
+2020-06-16T21:33:37.548+00:00 [INFO] cfg_metakv: metaKVCallback, path: /fts/cbgt/cfg/version, key: version, deletion: false
+2020-06-16T21:33:37.562+00:00 [INFO] version: CheckVersion, Cfg version updated 5.5.0
+2020-06-16T21:33:37.562+00:00 [INFO] cfg_metakv: metaKVCallback, path: /fts/cbgt/cfg/nodeDefs-known/a771316973056c9759aee152c7c79f8b, key: nodeDefs-known/a771316973056c9759aee152c7c79f8b, deletion: false
+2020-06-16T21:33:37.562+00:00 [INFO] janitor: awakes, op: kick, msg: cfg changed, key: nodeDefs-wanted
+2020-06-16T21:33:37.562+00:00 [INFO] ctl: kickIndexDefs, kind: cfgEvent
+2020-06-16T21:33:37.635+00:00 [INFO] cbauth: key: fts/https registered for tls config updates
+2020-06-16T21:33:37.635+00:00 [INFO] main: ------------------------------------------------------
+2020-06-16T21:33:37.635+00:00 [INFO] init_http: web UI / REST API is available (via 0.0.0.0): http://127.0.0.1:8094
+2020-06-16T21:33:37.635+00:00 [INFO] main: ------------------------------------------------------
+2020-06-16T21:33:37.635+00:00 [INFO] main: ------------------------------------------------------
+2020-06-16T21:33:37.635+00:00 [INFO] init_http: web UI / REST API is available: https://:18094
+2020-06-16T21:33:37.635+00:00 [INFO] main: ------------------------------------------------------
+2020-06-16T21:33:37.635+00:00 [INFO] main: cbauth_service registering...
+2020-06-16T21:33:37.637+00:00 [INFO] main: ------------------------------------------------------
+2020-06-16T21:33:37.637+00:00 [INFO] init_http: web UI / REST API is available: http://0.0.0.0:8094
+2020-06-16T21:33:37.637+00:00 [INFO] main: ------------------------------------------------------
+2020-06-16T21:33:37.637+00:00 [INFO] init_http: Setting up a http limit listener over "0.0.0.0:8094"
+2020-06-16T21:33:37.651+00:00 [INFO] init_http: Setting up a https limit listener over ":18094"
+2020-06-16T21:33:37.740+00:00 [INFO] ctl/manager: GetTaskList, haveTasksRev: , changed, rv: &{Rev:[48] Tasks:[]}
+2020-06-16T21:33:37.784+00:00 [INFO] ctl/manager: GetCurrentTopology, haveTopologyRev: , changed, rv: &{Rev:[50] Nodes:[a771316973056c9759aee152c7c79f8b] IsBalanced:true Messages:[]}
+2020-06-16T21:33:37.809+00:00 [WARN] janitor: JanitorOnce, err: janitor: skipped on nil planPIndexes -- cbgt.(*Manager).JanitorLoop() at manager_janitor.go:97
+2020-06-16T21:33:37.889+00:00 [INFO] ctl: run, kind: nodeDefs-wanted, updated memberNodes: {a771316973056c9759aee152c7c79f8b;}
+2020-06-16T21:33:39.901+00:00 [INFO] ctl/manager: GetNodeInfo
+2020-06-16T21:33:39.930+00:00 [INFO] ctl/manager: PrepareTopologyChange, change: {6380eda373359402d74599e96142c139 [] topology-change-rebalance [{{a771316973056c9759aee152c7c79f8b 0 <nil>} recovery-full}] []}
+2020-06-16T21:33:39.964+00:00 [INFO] ctl/manager: PrepareTopologyChange, done
+2020-06-16T21:33:39.965+00:00 [INFO] ctl/manager: GetTaskList, haveTasksRev: 0, changed, rv: &{Rev:[50] Tasks:[{Rev:[49] ID:prepare:6380eda373359402d74599e96142c139 Type:task-prepared Status:task-running IsCancelable:true Progress:100 DetailedProgress:map[] Description:prepare topology change ErrorMessage: Extra:map[topologyChange:{ID:6380eda373359402d74599e96142c139 CurrentTopologyRev:[] Type:topology-change-rebalance KeepNodes:[{NodeInfo:{NodeID:a771316973056c9759aee152c7c79f8b Priority:0 Opaque:<nil>} RecoveryType:recovery-full}] EjectNodes:[]}]}]}
+2020-06-16T21:33:40.033+00:00 [INFO] ctl/manager: StartTopologyChange, change: {6380eda373359402d74599e96142c139 [] topology-change-rebalance [{{a771316973056c9759aee152c7c79f8b 0 <nil>} recovery-full}] []}
+2020-06-16T21:33:40.034+00:00 [INFO] ctl: waitForWantedNodes, wantedNodes: [a771316973056c9759aee152c7c79f8b]
+2020-06-16T21:33:40.053+00:00 [INFO] ctl: getMovingPartitionsCount: 0
+2020-06-16T21:33:40.053+00:00 [INFO] ctl/manager: StartTopologyChange, started
+2020-06-16T21:33:40.053+00:00 [INFO] ctl/manager: GetTaskList, haveTasksRev: 2, changed, rv: &{Rev:[52] Tasks:[{Rev:[51] ID:rebalance:6380eda373359402d74599e96142c139 Type:task-rebalance Status:task-running IsCancelable:true Progress:0 DetailedProgress:map[] Description:topology change ErrorMessage: Extra:map[topologyChange:{ID:6380eda373359402d74599e96142c139 CurrentTopologyRev:[] Type:topology-change-rebalance KeepNodes:[{NodeInfo:{NodeID:a771316973056c9759aee152c7c79f8b Priority:0 Opaque:<nil>} RecoveryType:recovery-full}] EjectNodes:[]}]}]}
+2020-06-16T21:33:40.123+00:00 [INFO] ctl: waitForWantedNodes, wantedNodes: [a771316973056c9759aee152c7c79f8b]
+2020-06-16T21:33:40.215+00:00 [INFO] ctl: waitForWantedNodes, nodesToRemove: []
+2020-06-16T21:33:40.323+00:00 [INFO] planner: nodesRemove: []string{}
+2020-06-16T21:33:40.323+00:00 [INFO] planner: step unregister
+2020-06-16T21:33:40.348+00:00 [INFO] planner: step planner
+2020-06-16T21:33:40.814+00:00 [INFO] ctl/manager: GetTaskList, haveTasksRev: 4, changed, rv: &{Rev:[53] Tasks:[]}
+2020-06-16T21:38:37.651+00:00 [INFO] managerStats: {"feeds":{},"pindexes":{},"manager":{"TotKick":0,"TotSetOptions":0,"TotRegisterFeed":0,"TotUnregisterFeed":0,"TotRegisterPIndex":0,"TotUnregisterPIndex":0,"TotSaveNodeDef":2,"TotSaveNodeDefNil":0,"TotSaveNodeDefGetErr":0,"TotSaveNodeDefSetErr":0,"TotSaveNodeDefRetry":0,"TotSaveNodeDefSame":0,"TotSaveNodeDefOk":2,"TotCreateIndex":0,"TotCreateIndexOk":0,"TotDeleteIndex":0,"TotDeleteIndexOk":0,"TotIndexControl":0,"TotIndexControlOk":0,"TotDeleteIndexBySource":0,"TotDeleteIndexBySourceErr":0,"TotDeleteIndexBySourceOk":0,"TotPlannerOpStart":0,"TotPlannerOpRes":0,"TotPlannerOpErr":0,"TotPlannerOpDone":0,"TotPlannerNOOP":0,"TotPlannerNOOPOk":0,"TotPlannerKick":0,"TotPlannerKickStart":0,"TotPlannerKickChanged":0,"TotPlannerKickErr":0,"TotPlannerKickOk":0,"TotPlannerUnknownErr":0,"TotPlannerSubscriptionEvent":0,"TotPlannerStop":0,"TotJanitorOpStart":3,"TotJanitorOpRes":3,"TotJanitorOpErr":3,"TotJanitorOpDone":3,"TotJanitorNOOP":0,"TotJanitorNOOPOk":0,"TotJanitorKick":3,"TotJanitorKickStart":3,"TotJanitorKickErr":3,"TotJanitorKickOk":0,"TotJanitorClosePIndex":0,"TotJanitorRemovePIndex":0,"TotJanitorRestartPIndex":0,"TotJanitorLoadDataDir":0,"TotJanitorUnknownErr":0,"TotJanitorSubscriptionEvent":2,"TotJanitorStop":0,"TotRefreshLastNodeDefs":3,"TotRefreshLastIndexDefs":1,"TotRefreshLastPlanPIndexes":0}}
+2020-06-16T21:38:37.652+00:00 [INFO] stats: {
+    "batch_bytes_added": 0,
+    "batch_bytes_removed": 0,
+    "curr_batches_blocked_by_herder": 0,
+    "num_bytes_used_ram": 71760120,
+    "pct_cpu_gc": 0.00010712450218437637,
+    "tot_batches_flushed_on_maxops": 0,
+    "tot_batches_flushed_on_timer": 0,
+    "tot_bleve_dest_closed": 0,
+    "tot_bleve_dest_opened": 0,
+    "tot_grpc_listeners_closed": 0,
+    "tot_grpc_listeners_opened": 1,
+    "tot_grpc_queryreject_on_memquota": 0,
+    "tot_grpcs_listeners_closed": 0,
+    "tot_grpcs_listeners_opened": 1,
+    "tot_http_limitlisteners_closed": 0,
+    "tot_http_limitlisteners_opened": 1,
+    "tot_https_limitlisteners_closed": 0,
+    "tot_https_limitlisteners_opened": 1,
+    "tot_queryreject_on_memquota": 0,
+    "tot_remote_grpc": 0,
+    "tot_remote_grpc_tls": 0,
+    "tot_remote_http": 0,
+    "tot_remote_http2": 0,
+    "total_gc": 4,
+    "total_queries_rejected_by_herder": 0
+}
