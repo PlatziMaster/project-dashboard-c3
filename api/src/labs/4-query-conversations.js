@@ -16,6 +16,6 @@ bucket.query(n1Query, [2,5], (err, rows) => {
   if (err) {
     console.error(err);
   } else {
-    console.log(rows.length);
+    console.log(rows);
   }
 });
