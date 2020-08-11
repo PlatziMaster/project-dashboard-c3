@@ -1,9 +1,9 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, IonCardTitle } from '@ionic/react';
 import React from 'react';
-import ExploreContainer from '../components/ExploreContainer';
 import RenderAreaChart from '../components/RenderAreaChart';
 import RenderPieChart from '../components/RenderPieChart';
 import './Home.css';
+import RenderBarChart from '../components/RenderBarChart';
 
 const Home: React.FC = () => {
 
@@ -24,6 +24,14 @@ const Home: React.FC = () => {
     {label: '4', value: 100, color: '#7044ff'},
     {label: '5', value: 200, color: '#ff509e'},
   ];
+
+  const dataBarChart = [
+    {name: 'BarChart 1', expected: 500, received: 360, },
+    {name: 'BarChart 2', expected: 600,  received: 310, },
+    {name: 'BarChart 3', expected: 550,  received: 100, },
+    {name: 'BarChart 4', expected: 439,  received: 395, },
+    {name: 'BarChart 5', expected: 559,  received: 438, }
+];
   return (
     <IonPage>
       <IonHeader>
@@ -56,11 +64,11 @@ const Home: React.FC = () => {
           <IonCard className="grid--card">
             <IonCardHeader>
               <IonCardTitle>
-                Número de conversaciones al mes
+                Número de conversaciones al dia
               </IonCardTitle>
             </IonCardHeader>
             <div className="card--chart">
-              <RenderAreaChart data={data}></RenderAreaChart>
+              <RenderBarChart data={dataBarChart}></RenderBarChart>
             </div>
           </IonCard>
         </div>
