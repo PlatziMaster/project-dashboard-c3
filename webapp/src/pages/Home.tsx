@@ -18,6 +18,7 @@ import RenderAreaChart from '../components/RenderAreaChart';
 import RenderPieChart from '../components/RenderPieChart';
 import Filter from "./../components/Filter";
 import './Home.css';
+import RenderBarChart from '../components/RenderBarChart';
 
 const Home: React.FC = () => {
 
@@ -40,6 +41,14 @@ const Home: React.FC = () => {
     {label: '5', value: 200, color: '#ff509e'},
   ]);
 
+  const [data3, setData3] = useState([
+    {name: 'BarChart 1', expected: 500, received: 360, },
+    {name: 'BarChart 2', expected: 600,  received: 310, },
+    {name: 'BarChart 3', expected: 550,  received: 100, },
+    {name: 'BarChart 4', expected: 439,  received: 395, },
+    {name: 'BarChart 5', expected: 559,  received: 438, }
+  ]);
+
   const updateFilter = (option: any) => {
     console.log('padre', option);
     setShowModal(false);
@@ -60,8 +69,15 @@ const Home: React.FC = () => {
       {label: '4', value: 34, color: '#7044ff'},
       {label: '5', value: 343, color: '#ff509e'},
     ]);
-  }
 
+    setData3([
+      {name: 'BarChart 1', expected: 2323, received: 34, },
+      {name: 'BarChart 2', expected: 6030,  received: 310, },
+      {name: 'BarChart 3', expected: 550,  received: 23, },
+      {name: 'BarChart 4', expected: 34,  received: 32, },
+      {name: 'BarChart 5', expected: 53459,  received: 45, }
+    ]);
+  }
   return (
     <IonPage>
       <IonHeader>
@@ -97,11 +113,11 @@ const Home: React.FC = () => {
           <IonCard className="grid--card">
             <IonCardHeader>
               <IonCardTitle>
-                Número de conversaciones al mes
+                Número de conversaciones al dia
               </IonCardTitle>
             </IonCardHeader>
             <div className="card--chart">
-              <RenderAreaChart data={data}></RenderAreaChart>
+              <RenderBarChart data={data3}></RenderBarChart>
             </div>
           </IonCard>
         </div>
