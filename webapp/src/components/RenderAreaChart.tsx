@@ -9,7 +9,7 @@ import {
 } from 'recharts';
 
 interface ContainerProps {
-  data: Array<{label: string, value: number}>
+  data: Array<{name: string, value: number}>
 }
 
 const RenderAreaChart: React.FC<ContainerProps> = ({data}) => {
@@ -28,7 +28,7 @@ const RenderAreaChart: React.FC<ContainerProps> = ({data}) => {
         }}
       >
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="label" />
+        <XAxis dataKey="name" />
         <YAxis />
         <Area type="monotone" dataKey="value" stroke="#8884d8" fill="#8884d8" />
       </AreaChart>

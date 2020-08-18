@@ -56,6 +56,11 @@ const Filter: React.FC<FilterProps> = ({updateFilter}) => {
       label: '2019',
       startAt: format(startOfYear(sub(today, {years: 1})), 'yyyy/MM/dd'),
       endAt: format(endOfYear(sub(today, {years: 1})), 'yyyy/MM/dd')
+    },
+    {
+      label: '2018-2020',
+      startAt: '2018/01/01',
+      endAt: todayFormat
     }
   ];
 
